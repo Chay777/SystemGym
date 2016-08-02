@@ -1,4 +1,4 @@
-package com.ejemplo;
+package mx.SystemGym.Dto;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,6 +15,26 @@ public class UsuatioDTO {
 	private String nombre;
 	
 	private int edad;
+
+	private String apellidop;
+
+	private String apellidom;
+
+	public String getApellidop() {
+		return apellidop;
+	}
+
+	public void setApellidop(String apellidop) {
+		this.apellidop = apellidop;
+	}
+
+	public String getApellidom() {
+		return apellidom;
+	}
+
+	public void setApellidom(String apellidom) {
+		this.apellidom = apellidom;
+	}
 
 	public long getId() {
 		return id;

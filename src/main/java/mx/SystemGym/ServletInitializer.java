@@ -1,4 +1,4 @@
-package com.ejemplo;
+package mx.SystemGym;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(DemobdtApplication.class);
+		return application.sources(SystemGymApplication.class);
 	}
 
 }
